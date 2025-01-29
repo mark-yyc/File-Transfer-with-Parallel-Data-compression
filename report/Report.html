@@ -1,0 +1,269 @@
+<!DOCTYPE html><html><head>
+      <title>Report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\yyc99\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.15\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="ee451-project-report-optimized-file-transfer-with-integrated-data-compression">EE451 Project Report: Optimized File Transfer with Integrated Data compression </h1>
+<h3 id="introduction">Introduction </h3>
+<p>Efficient file transfer is critical in distributed systems, where large datasets are exchanged over networks with varying bandwidth and latency constraints. Data compression is commonly used to reduce file sizes, thus decreasing transfer time and storage requirements [1][2].</p>
+<p>Traditional file transfer protocols such as FTP and SCP provide reliable data transmission but lack optimizations for parallelism and network utilization [3]. Recent studies on parallel file transfer methods, such as [4], demonstrate significant improvements in throughput. On the compression side, algorithms like Gzip and LZMA achieve high compression ratios, though they often face bottlenecks in execution speed. While parallel transfer techniques and advanced compression algorithms are individually well-researched, few studies address their integration for high-performance file transfer. This motivates the need for a custom protocol that combines parallel compression and transfer.</p>
+<p>This report introduces a custom file transfer protocol that integrates data compression with parallel transfer, optimizing both speed and efficiency. The proposed approach leverages the strengths of modern multi-core systems and efficient compression algorithms to minimize transfer time while maintaining data integrity.</p>
+<p>In this project, several work will be done:</p>
+<ul>
+<li>
+<p>Investigate Data Compression for Specific File Patterns<br>
+Analyze a targeted file type and explore data compression algorithms to identify the one that best suits its characteristics in terms of compression ratio, speed, and compatibility.</p>
+</li>
+<li>
+<p>Develop a Serial Compression Implementation in C++<br>
+Implement the selected data compression algorithm in C++ to create a functional baseline version.</p>
+</li>
+<li>
+<p>Parallelize the Compression Algorithm<br>
+Optimize the serial implementation by incorporating parallelization techniques, leveraging multi-threading or multi-processing to enhance performance.</p>
+</li>
+<li>
+<p>Design and Implement a TCP-Based File Transfer Protocol<br>
+Develop a custom file transfer protocol using TCP sockets in C++. Integrate the parallelized compression to streamline the file transfer process and improve throughput.</p>
+</li>
+<li>
+<p>Evaluate Performance Across Datasets<br>
+Test the implementations on multiple datasets to evaluate performance metrics such as speed, efficiency, and scalability. Compare results against baseline implementations to validate improvements.</p>
+</li>
+</ul>
+<h3 id="data-compression-algorithm">Data Compression Algorithm </h3>
+<p>In this project, the targeted file types are high-redundancy files, such as text documents and GIF images. To achieve effective data compression, I have selected the LZW (Lempel-Ziv-Welch) algorithm and Huffman Coding. These algorithms are chosen for their complementary strengths: LZW is efficient for repetitive patterns due to its dictionary-based approach, while Huffman Coding optimizes compression by assigning shorter codes to more frequent symbols.</p>
+<figure style="text-align: center;">
+  <img src="./Data_compression_process.png" alt="Data compression process" style="max-width: 50%; height: auto;">
+  <figcaption>Fig. 1. Data Compression Process</figcaption>
+</figure>
+<ol>
+<li>LZW (Lempel-Ziv-Welch)<br>
+The LZW (Lempel-Ziv-Welch) algorithm is a lossless data compression algorithm that builds a dictionary of substrings dynamically as it processes the input <a href="http://data.It">data.It</a> has several features that meet the requirement:</li>
+</ol>
+<ul>
+<li>Adaptive: The dictionary is built dynamically during encoding, making LZW well-suited for various data types.</li>
+<li>Efficiency: Works well when input data contains repeated patterns.</li>
+<li>Dictionary Size: Usually fixed in implementations to limit memory usage.<pre data-role="codeBlock" data-info="" class="language-text"><code>function LZW_Compress(input_string):
+    initialize dictionary with all single-character strings
+    current_string = ""
+    result = []
+
+    for each character in input_string:
+        if current_string + character exists in dictionary:
+            current_string += character
+        else:
+            output dictionary index of current_string to result
+            add current_string + character to dictionary
+            current_string = character
+
+    if current_string is not empty:
+        output dictionary index of current_string to result
+
+    return result
+</code></pre></li>
+</ul>
+<ol start="2">
+<li>Huffman Coding<br>
+Huffman Coding is a lossless data compression algorithm. It uses variable-length binary codes for encoding symbols, assigning shorter codes to more frequent symbols and longer codes to less frequent ones. The algorithmn can be seperated into sereral steps: calculate frequency, build a priority queue, build a huffman tree, generate huffman code. The pesudo code is shown below:<pre data-role="codeBlock" data-info="" class="language-text"><code>function Huffman_Encode(symbols, frequencies):
+    create a priority queue and insert all symbols with their frequencies
+
+    while the queue contains more than one node:
+        left = extract_min(queue)
+        right = extract_min(queue)
+        new_node = create_node(frequency = left.frequency + right.frequency)
+        new_node.left = left
+        new_node.right = right
+        insert new_node into queue
+
+    root = extract_min(queue)
+    codes = {}
+    generate_codes(root, "", codes)
+    return codes
+
+function generate_codes(node, current_code, codes):
+    if node is a leaf:
+        codes[node.symbol] = current_code
+    else:
+        generate_codes(node.left, current_code + "0", codes)
+        generate_codes(node.right, current_code + "1", codes)
+</code></pre></li>
+</ol>
+<h3 id="parallelization-strategy">Parallelization Strategy </h3>
+<p>As this project is relatively lightweight and does not require extensive computational resources, there is no need to use GPU acceleration (e.g., CUDA). Instead, I will utilize POSIX threads (pthreads) to achieve parallel execution efficiently. In the following sections, I will demonstrate how pthreads are integrated into the implementation to enable parallel processing.</p>
+<h5 id="1-plzw-parallel-lempel-ziv-welch">1. PLZW (Parallel-Lempel-Ziv-Welch) </h5>
+<p>As LZW algorithm is executed on a entire file, so making it into parallel is a data parallelism problem. So different thread will do the same operation to different chunks of file. And after Sync, combine them together to make a complete compressed file.</p>
+<p>The key challenge in this process lies in managing the shared resource: the LZW dictionary. As mentioned, the dictionary is generated dynamically during file processing. Ideally, sharing the dictionary among all threads would improve compression, as it allows multiple threads to process the same string and map it to the same code. However, using a shared dictionary introduces several issues.The dictionary is created and updated while threads are encoding the file, multiple threads may attempt to write to the dictionary simultaneously, resulting in a race condition. This could lead to inconsistent data and incorrect compression. Additionally, the shared dictionary may cause data dependencies during the decompression phase, creating confusion and errors as threads attempt to decode the file.</p>
+<p>Therefore, a better approach is to maintain a private dictionary in each thread. Each thread will be assigned a specific chunk of the file and will independently apply the data compression algorithm to generate its own dictionary. During the decompression phase, the file must be divided in the same way, ensuring that each chunk, compressed with its own dictionary, is decoded correctly. To manage this, a marker is introduced to indicate the boundaries between chunks, allowing the decompression process to align with the corresponding dictionary used during compression[5].</p>
+<figure style="text-align: center;">
+  <img src="./PLZW.png" alt="PLZW" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 2. Parallel-Lempel-Ziv-Welch Compression Process</figcaption>
+</figure>
+<h5 id="2-parallel-huffman-compression">2. Parallel Huffman Compression </h5>
+<p>In the serial version, Huffman coding works in this manner[6]:</p>
+<ul>
+<li>Frequency Calculation:<br>
+Determine the frequency of each symbol in the input data.</li>
+<li>Build a Priority Queue:<br>
+Each symbol is treated as a node with its frequency as the priority.<br>
+Add all nodes to a min-heap (or priority queue).</li>
+<li>Tree Construction:<br>
+Remove the two nodes with the lowest frequencies from the queue.<br>
+Create a new node with these two nodes as children and a combined frequency.<br>
+Insert the new node back into the queue.<br>
+Repeat until the queue has one node remaining (the root of the Huffman tree).</li>
+<li>Generate Codes:<br>
+Traverse the Huffman tree to assign binary codes to each symbol.<br>
+Assign '0' for a left branch and '1' for a right branch during traversal.</li>
+</ul>
+<p>To identify the parallelizable parts of the process, we need to analyze each step. Step 1, data parallelism, is the most suitable for parallelization. This step can be implemented by dividing the input data into multiple chunks, allowing each chunk to be processed independently in parallel.</p>
+<p>However, the remaining steps must be executed in sequential order. Specifically, the priority queue used in the algorithm is not thread-safe, meaning it cannot be written to by multiple threads concurrently without risking data inconsistency or corruption. Additionally, building the Huffman tree involves a strong data dependency between nodes, making it inherently sequential—each node's placement depends on the previous ones.</p>
+<h3 id="parallel-file-transfer-implementation">Parallel File Transfer Implementation </h3>
+<p>Here’s a revised version of your explanation with improved clarity and flow:</p>
+<p>To fully utilize the bandwidth of the link, it is essential to transfer the file in parallel. In the implementation, the file is divided into several chunks, which are then processed by multiple threads. Each chunk is further divided into pages of fixed size within a single thread. To maintain the file's consistency, a sequence number is added to each page, forming a packet.</p>
+<p>The packets are then transmitted to the receiver using a single thread. At the receiver host, multiple receiver threads are waiting for incoming packets. Each receiver thread extracts the sequence number from the packet and writes the data to the corresponding position based on the sequence number. Once the data is written, the receiver thread sends an acknowledgment (ACK) back to confirm the receipt of the packet.</p>
+<p>To ensure reliability, a packet-resend mechanism is implemented. If a thread does not receive an ACK for a packet within a specified timeout period, it will resend the packet. This ensures that lost or dropped packets are detected and retransmitted, guaranteeing the complete transfer of the file.</p>
+<figure style="text-align: center;">
+  <img src="./File_transfer.png" alt="File Transfer" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 3. Parallel File Transfer</figcaption>
+</figure>
+<p>In the implementation, a key challenge is managing shared resources effectively. To avoid race conditions, sockets and file descriptors must be kept private for each thread, as they are not thread-safe and could lead to issues like file overwriting. Additionally, when multiple threads are performing I/O operations on the same file, locks will be used to synchronize access. These locks ensure that when operations involve the entire file, only one thread can access the file at a time, preventing potential conflicts and maintaining data integrity.</p>
+<h3 id="hypothesis">Hypothesis </h3>
+<p>In the file transfer process, there are two primary areas of parallelism: parallel data compression and parallel file transfer. The output of the compression step serves as the input for the file transfer, so the efficiency of the parallel data compression directly impacts the overall performance. The effectiveness of the data compression is crucial, as it constitutes a significant portion of the entire process.</p>
+<p>As mentioned earlier, to prevent race conditions during compression, private dictionaries are used in each thread. However, this approach introduces a trade-off. Since each thread maintains its own dictionary, the same string may be encoded differently across threads, leading to a lower compression ratio. This creates a balance between compression effectiveness and speed.</p>
+<p>Regarding parallel file transfer, while the available link bandwidth is a limiting factor, the use of locks during the compression and transfer processes introduces additional overhead. As a result, the efficiency of multiple threads handling file transfer will be impacted by the bandwidth constraints, which remain the primary bottleneck.</p>
+<p>Thus, the hypotheses for the system are as follows:</p>
+<ul>
+<li>Parallel data compression can speed up the overall file transfer process. However, due to the trade-off between compression effectiveness and speed, the performance of the entire system cannot increase indefinitely when increasing the number of thread.</li>
+<li>Bandwidth remains the limiting factor, as the system will utilize the available bandwidth as efficiently as possible, but bandwidth will still be the primary bottleneck.</li>
+</ul>
+<h3 id="test-and-result">Test and Result </h3>
+<h4 id="1-test-on-data-compression">1. Test on Data Compression </h4>
+<h5 id="experimental-setup">Experimental Setup </h5>
+<ul>
+<li>Dataset<br>
+As mentioned above, the project has targeted file types with high redundancy, so the files I used are text file and image patterns:
+<ul>
+<li>English Bible : 4496KB</li>
+<li>Pattern image: 282KB</li>
+<li>Random generated file: 64MB</li>
+</ul>
+</li>
+<li>Parameter<br>
+Number of thread: 1, 4, 8, 16, 32</li>
+<li>Device<br>
+Laptop:<br>
+Intel(R) Core(TM) i9-14900HX (32 cores)</li>
+<li>Baseline<br>
+Serial version of data compression: Parallel-Lempel-Ziv-Welch + Huffman Coding</li>
+</ul>
+<h5 id="result-and-analysis">Result and Analysis </h5>
+<ul>
+<li>Execution time:</li>
+</ul>
+<figure style="text-align: center;">
+  <img src="./Time.png" alt="Execution Time" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 4. Execution Time for Data Compression</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="./Speedup.png" alt="Speedup" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 5. Speedup for Data Compression</figcaption>
+</figure>
+As the number of threads increases, the execution time for data compression decreases at a diminishing rate. This means that while adding more computing resources can accelerate the compression process, the performance gains become less significant as the number of threads increases. This behavior is typical in parallelized systems, where the overhead of managing additional threads and resources eventually limits the performance improvements.
+<ul>
+<li>Compression Effect:</li>
+</ul>
+<figure style="text-align: center;">
+  <img src="./Compression_rate.png" alt="Compression rate" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 6. Compression rate for Compressed File</figcaption>
+</figure>
+Here, the compression rate is defined as the ratio of the size of the compressed file to the size of the original file. From the graph, it can be observed that as the number of threads increases, the compression rate also increases. This happens because each thread maintains its own private dictionary, which allows the same piece of data to be encoded differently in different threads. This results in a higher compression rate, as the dictionary entries vary across threads, leading to more frequent matches and potentially better compression.
+<h4 id="2-test-on-file-transfer">2. Test on File Transfer </h4>
+<h5 id="experimental-setup-1">Experimental Setup </h5>
+<ul>
+<li>
+<p>Dataset:</p>
+<ul>
+<li>English Bible : 4496KB</li>
+<li>Multiple Copies of bible: 64MB</li>
+<li>Multiple Copies of image pattern: 1GB</li>
+</ul>
+</li>
+<li>
+<p>Parameter<br>
+Number of thread: 32 threads for data compression, 16 threads for file transfer.</p>
+</li>
+<li>
+<p>Device<br>
+AWS: Two host in a same subnet, one for sender, one for receiver.<br>
+c5ad.12xlarge (48 cores)</p>
+</li>
+<li>
+<p>Network:<br>
+Use command to limit the bandwidth between two host:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>  sudo tc qdisc add dev eth0 root tbf rate 50mbit latency 1ms burst 90155 
+</code></pre></li>
+<li>
+<p>Baseline<br>
+Serial version of file transfer without data compression.</p>
+</li>
+<li>
+<p>Target<br>
+Test the result in conditions:</p>
+<ol>
+<li>Baseline</li>
+<li>Serial version of file transfer with serial version of file transfer</li>
+<li>Parallel version of file transfer with parallel version of file transfer</li>
+</ol>
+</li>
+</ul>
+<h5 id="result-and-analysis-1">Result and Analysis </h5>
+<figure style="text-align: center;">
+  <img src="./Time_transfer.png" alt="Time for file transfer" style="max-width: 100%; height: auto;">
+  <figcaption>Fig. 7. Time for File Transfer in Different Condition</figcaption>
+</figure>
+From the graph, we can observe that with a fixed bandwidth, the file transfer protocol does not significantly speed up the process when the file size is small. However, as the file size increases, the performance of the protocol improves, and the process can be sped up considerably. This indicates that the benefits of parallel file transfer are more noticeable when transferring larger files, as the overhead associated with parallelization is outweighed by the increased efficiency from utilizing more resources.
+<h3 id="conclusion">Conclusion </h3>
+<p>In this project, a custom file transfer protocol was developed that first compresses the file and then transfers it in parallel. The implementation demonstrates that parallelizing both the data compression and file transfer processes can significantly improve transfer speeds, especially for larger files. While the use of private dictionaries in parallel compression threads introduces trade-offs in compression efficiency, it provides a good balance between speed and compression rate.</p>
+<p>Additionally, the results show that the protocol’s performance is limited by the available bandwidth, with small files not benefiting as much from parallelization due to overhead. However, as the file size increases, the performance gains from parallelization become more noticeable. This confirms that the custom protocol can be highly effective in environments where large file transfers are common.</p>
+<p>Overall, this project highlights the potential of parallelization in optimizing file transfer protocols, with the balance between compression rate and speed being a key factor in determining overall efficiency.</p>
+<h3 id="reference">Reference </h3>
+<p>[1] J. Smith and A. Johnson, "Optimized File Transfer Protocols in Distributed Systems," Journal of Network Research, vol. 12, no. 3, pp. 45-58, 2020.<br>
+[2] Brown, "Data Compression Techniques: A Review," International Journal of Computer Science, vol. 25, no. 2, pp. 112-130, 2018.<br>
+[3] Zhang et al., "Enhancing Parallel Data Transfer Using Adaptive Chunking," Proceedings of IEEE INFOCOM, 2019.<br>
+[4] Gupta and P. Patel, "Hybrid Compression Algorithms for Big Data," ACM Transactions on Storage, vol. 16, no. 4, pp. 1-22, 2021.<br>
+[5]Mishra, Manas Kumar et al. “Parallel Lempel-Ziv-Welch ( PLZW ) Technique for Data Compression.” (2012).<br>
+[6]Vitter, Jeffrey Scott. "Design and analysis of dynamic Huffman codes."&nbsp;Journal of the ACM (JACM)&nbsp;34.4 (1987): 825-845.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
